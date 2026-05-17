@@ -36,13 +36,20 @@ scene's own depth buffer.
 5. Use **Pick Focus Point** to click your subject on the splat — the focus
    distance updates instantly.
 6. Adjust **Focal Length** and **F-Stop** to taste.
-7. Click **Render with DoF** to export a composited PNG & Debug information = Default = C:\temp
+7. Click **Render with DoF** to export a composited PNG & Debug information: Default output = C:\temp
+   
 	DOF_RENDER.TXT       =  Information additional runs appended, so can be deleted
+
 	debug_compare.png    =  Side by Side full depth scene & blurred
+
 	render_dof.png       =  Blurred result
+
 	debug_coc.png        =  Circle-of-Confusion image in greyscale
+
 	debug_depth.png      =  Calculated depth image in greyscale
+
 	debug_raw.png        =  Normal RGB image of scene
+
 ---
 
 ## Controls
