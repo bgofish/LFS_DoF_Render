@@ -1,0 +1,20 @@
+# SPDX-FileCopyrightText: 2025 LichtFeld Studio Authors
+# SPDX-License-Identifier: GPL-3.0-or-later
+
+[project]
+name = "Dof_Render"
+version = "0.1.0"
+description = "Depth of Field post-process effect for LichtFeld Studio Video Export"
+authors = [{name = "Brian Davis (bb6)"}]
+dependencies = [
+    "numpy",
+    "scipy",
+    "imageio[pyav]",
+]
+
+[tool.lichtfeld]
+auto_start = true
+hot_reload = true
+plugin_api = ">=1,<2"
+lichtfeld_version = ">=0.4.2"
+required_features = []
